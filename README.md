@@ -10,8 +10,11 @@ python -m pip install nanobind
 Make sure CMake 3.15+ is installed. Then from the terminal command line...  
 ```
 cmake -S . -B build
+```
+```
 cmake --build build
 ```
+If you make any changes to the C++ code, re-run the last line. 
 
 ## Run
 `

@@ -1,8 +1,10 @@
 #include <nanobind/nanobind.h>
 #include <iostream>
+using std::cout;
+using std::endl;
 
 int add(int a, int b) {
-    std::cout << "Whassup?" << std::endl;
+    cout << a << " + " << b << " = " << endl;
     return a + b;
 }
 
