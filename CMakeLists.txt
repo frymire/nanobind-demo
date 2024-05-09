@@ -12,4 +12,4 @@ execute_process(COMMAND "${Python_EXECUTABLE}" -m nanobind --cmake_dir OUTPUT_ST
 list(APPEND CMAKE_PREFIX_PATH "${NB_DIR}")
 find_package(nanobind CONFIG REQUIRED)
 
-nanobind_add_module(my_ext my_ext.cpp)
+nanobind_add_module(my_ext src/my_ext.cpp)
