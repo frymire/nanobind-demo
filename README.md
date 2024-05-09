@@ -2,13 +2,18 @@
 Proof that I can call C++ functions from Python using Nanobind
 
 ## Build
-Install nanobind...  
+Open this repo in PyCharm, setting up a local virtual environment with python 3.10.+ as the interpreter. Then, install nanobind...  
 `
 python -m pip install nanobind
-`  
-
-Make sure CMake is installed, version 3.15+ is required. Then...  
 `
+
+Make sure CMake 3.15+ is installed. Then from the terminal command line...  
+```
 cmake -S . -B build
 cmake --build build
+```
+
+## Run
+`
+python invoke_it.py
 `
